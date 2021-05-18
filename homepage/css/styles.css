@@ -7,20 +7,17 @@ body {
 
 /*START HEADER*/
 #header-nav {
-	background-color: #3b5998;
+	background-color: #ADD8E6;
 	border-radius: 0;
 	border: 0;
 }
 
-.active {
-	color: #3b5998;
+#red{
+	color: #DC143C;
 }
 
-#logo-img {
-	background: url('../images/logo.png') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0;
+.active {
+	color: #ADD8E6;
 }
 
 .navbar-brand {
@@ -28,10 +25,9 @@ body {
 }
 
 .navbar-brand h1 {
-	font-family: 'lora', serif;
+	font-family: 'Helvetica', serif;
 	color: #F0F8FF;
-	font-size: 1.9em;
-	text-transform: uppercase;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
@@ -43,24 +39,15 @@ body {
 	text-decoration: none;
 }
 
-.navbar-brand p {
-	color: #000000;
-	text-transform: uppercase;
-	font-size: .7em;
-	margin-top: 15px;
-}
-
-.navbar-brand p span{
-	vertical-align: middle;
-}
-
 #nav-list {
 	margin-top: 10px;
 }
 
 #nav-list a {
 	color: #F0F8FF;
+	font-weight: bold;
 	text-align: center;
+	font-size: 1.0em;
 }
 
 #nav-list a:hover {
@@ -68,24 +55,10 @@ body {
 }
 
 #nav-list a span {
-	font-size: 1.8em;
-}
-
-
-
-#phone {		/*phone number*/
-	margin-top: 5px;
-}
-
-#phone a {
-	text-align: right;
-	padding-bottom: 0;
-}
-
-#phone div {
-	color: #F0F8FF;
-	text-align: right;
-	padding-right: 15px;
+	background-color: #00008B;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	padding: 10px 15px 10px;
 }
 
 #call-btn > a {
@@ -94,7 +67,7 @@ body {
 	margin: 0 20px;
 	padding: 10px;
 	border: 2px solid #fff;
-	background-color: #3b5998;
+	background-color: #00008B;
 	color: #F0F8FF;
 }
 
@@ -102,11 +75,6 @@ body {
 	box-shadow: 0 1px 5px 1px #3b5998; 
 }
 
-#xs-deliver {
-	font-style: italic;
-	font-size: 1.3em;
-
-}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #F0F8FF;
 }
@@ -124,179 +92,52 @@ body {
 	border-top: 0;
 }
 
-.panel-footer div.row{
-	margin-top: 35px
-}
-
-#hours, #address{
-	line-height: 2;
-}
-
-#hours > span, #address > span{
-	font-size: 1.3em;
-}
-
-#address p {
+#copyright{
 	color: #F0F8FF;
-	font-size: .8em;
-	line-height: 1.8;
-}
-
-#hours, #address, #testimonial, #copyright{
-	color: #F0F8FF;
-}
-
-#testimonial{
-	font-style: italic;
-}
-
-#testimonial p: nth-child(2){
-	margin-top: 25px
 }
 /*End Footer*/
 /*START HOME PAGE*/
 
 .container .jumbotron{
-	box-shadow: 0 0 50px #3b5998;
-	border: 2px solid #3b5998;
-}
-
-#certificate{
-	box-shadow: 0 0 50px #3b5998;
-	border: 2px solid #3b5998;
-}
-
-#menu-tile, #special-tile, #map-tile{
-	height: 250px;
 	width: 100%;
-	margin-bottom: 150px;
+}
+
+#menu-tile {
+	height: 500px;
+	width: 100%;
+	margin-bottom: 50px;
+	background-color: #ADD8E6;
 	position: relative;
-	border: 2px solid #3b5998;
 	overflow: hidden;
 }
 
-#menu-tile:hover, #special-tile:hover, #map-tile:hover{
-	box-shadow: 0 1px 5px 1px #3b5998;
-}
-
-#menu-tile{
-	background: url('../images/menu_360.png') no-repeat;
-	background-position: center;
-}
-
-#special-tile {
-	background: url('../images/special_360.png') no-repeat;
-	background-position: center;
-}
-
-#menu-tile span, #special-tile span, #map-tile span {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+#menu-tile span {
 	width: 100%;
 	text-align: center;
-	font-size: 1.6em;
-	text-transform: uppercase;
-	background-color: #3b5998;
-	color: #fff;
-	opacity: .7;
-}/*End homepage*/
-
-/*Single-category page*/
-
-#about {
-	background-color: #3b5998;
-	color: white;
-	margin: 30px 30px 30px 30px;
-	font-size: 1.2em;
-	padding: 20px 20px 20px 20px;
-	font-style: italic;
-	font-family: non-serif;
+	font-size: 1.3em;
+	color: #FFFFFF;
+	padding: 10px 10px 10px;
 }
 
-#myname {
-	font-family: 'lora', serif;
-	font-style: bold;
-}
-.menu-item-tile{
-	margin-bottom: 25px;
-}
-.menu-item-tile hr{
-	width: 80%;
-}
-.menu-item-tile .menu-item-price{
-	font-size: 1.1em;
-	text-align: right;
-	margin-top: -15px;
-	margin-right: -15px;
-}
-.menu-item-tile .menu-item-price span{
-	font-size: .6em;
-}
-.menu-item-photo{
-	position: relative;
-	border: 2px solid #3b5998;
-	overflow: hidden;
-	padding: 0;
-	margin-right: -15px;
-	margin-left: auto;
-	margin-bottom: 20px;
-	max-width: 250px;
-}
-.menu-item-photo div{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 80px;
-	background-color: #3b5998;
-}
-.menu-item-description{
-	padding-right: 30px;
-}
-h3.menu-item-title{
-	margin: 0 0 10px; 
-}
-h2 {
-	font-family: non-serif;
-	font-size: 2.8em;
-	margin-bottom: 20px;
-	text-decoration: underline;
-
-}
-.menu-item-detail{
-	font-size: .9em;
-	font-style: italic;
-}
-/*End of Single category page*/
-.category-tile{
-	position: relative;
-	border: 2px solid #3F0C1F;
-	overflow: hidden;
-	width: 200px;
-	height: 200px;
-	margin: 0 auto 25px;
-}
-.category-tile span{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .8;
-}
-.category-tile span{
+#menu-tile h1 {
+	font-family: 'Helvetica';
+	color: #000080;
 	text-align: center;
+	position: center;
+	font-size: 2.5em;
 }
-.category-tile:hover{
-	box-shadow: 0 1px 5px 1px #3b5998;
+
+.menu h1:hover, .menu h1:focus, .menu span: hover, .menu span:focus {
+	text-decoration: none;
 }
+
+/*End homepage*/
+
+
 /**************************Large devices only*************************/
 @media(min-width: 1200px) {
 	.container .jumbotron{
-		background: url('../images/library_1200.png') no-repeat;
+		background: url('../images/hospital_1200.png') no-repeat;
 		height: 675px;
 	}
 	#certificate {
@@ -315,7 +156,7 @@ h2 {
 	}
 
 	.container .jumbotron{
-		background: url('../images/library_992.png') no-repeat;
+		background: url('../images/hospital_992.png') no-repeat;
 		height: 558px;
 	}
 
@@ -328,7 +169,7 @@ h2 {
 /**************************Small devices only*************************/
 @media(min-width: 768px) and (max-width: 991px) {
 	.container .jumbotron{
-		background: url('../images/library_768.png') no-repeat;
+		background: url('../images/hospital_768.png') no-repeat;
 		height: 432px;
 	}
 	#certificate {
@@ -341,8 +182,8 @@ h2 {
 @media(max-width: 767px) {
 	/*header*/
 	.navbar-brand {				
-		padding-top: 10px;
-		height: 80px;
+	padding-top: 10px;
+	height: 80px;
 	}
 
 
